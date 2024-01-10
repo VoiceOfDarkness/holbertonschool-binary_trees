@@ -1,5 +1,5 @@
-#ifndef BINARY_TREE_H
-#define BINARY_TREE_H
+#ifndef _BINARY_TREES_H_
+#define _BINARY_TREES_H_
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -32,4 +32,4 @@ int binary_tree_is_leaf(const binary_tree_t *node);
 int binary_tree_is_root(const binary_tree_t *node);
 void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int));
 
-#endif
+#endif /* _BINARY_TREES_H_ */
