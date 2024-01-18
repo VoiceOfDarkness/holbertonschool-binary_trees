@@ -8,7 +8,7 @@ int depth(const binary_tree_t *node)
 {
 	int d = 0;
 	binary_tree_t *buf;
-	
+
 	if (!node)
 		return (d);
 	buf = (binary_tree_t *)node;
@@ -27,7 +27,8 @@ int depth(const binary_tree_t *node)
   * @second: second node
   * Return: common ancestor
   */
-binary_tree_t *binary_trees_ancestor(const binary_tree_t *first, const binary_tree_t *second)
+binary_tree_t *binary_trees_ancestor(const binary_tree_t *first,
+		const binary_tree_t *second)
 {
 	int f_d, s_d;
 	binary_tree_t *buf;
